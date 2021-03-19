@@ -1,0 +1,7 @@
+1. create migrations. done
+2. create assossiations (book author). done
+3. create basic auth flow. done
+4. logout with redis
+5. google oath2
+6. caching
+7. tests

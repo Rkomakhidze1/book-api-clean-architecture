@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Bubuka777",
+  "database": "bookApi_dev",
+  "entities": ["api/server/db/entity/**/*.ts"],
+  "migrations": ["api/server/db/migration/**/*.ts"],
+  "subscribers": ["api/server/db/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "api/server/db/entity",
+    "migrationsDir": "api/server/db/migration"
+  }
+}
